@@ -12,7 +12,7 @@
       url(/assets/illustration-hero-right.svg),
       url(/assets/bg-hero-squiggle.svg);
     background-repeat: no-repeat, no-repeat;
-    background-position: center left -25%, center right -25%, center;
+    background-position: center left -150px, center right -150px, center;
     background-size: 314px 356px, 317px 356px, 386px 268px;
     height: 360px;
   }
@@ -24,7 +24,19 @@
       url(/assets/illustration-hero-right.svg),
       url(/assets/bg-hero-squiggle.svg);
     background-repeat: no-repeat, no-repeat;
-    background-position: center left -30%, center right -30%, center 10%;
+    background-position: center left -20%, center right -20%, center 10%;
+    background-size: 314px 356px, 317px 356px, 386px 268px;
+    height: 360px;
+  }
+}
+
+@media only screen and (min-width: 1200px) {
+  .hero {
+    background-image: url(/assets/illustration-hero-left.svg),
+      url(/assets/illustration-hero-right.svg),
+      url(/assets/bg-hero-squiggle.svg);
+    background-repeat: no-repeat, no-repeat;
+    background-position: center left -10%, center right -10%, center 10%;
     background-size: 408px 459px, 408px 459px, 544px 377px;
     height: 460px;
   }

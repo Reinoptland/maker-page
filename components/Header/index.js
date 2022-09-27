@@ -1,12 +1,11 @@
 import React from "react";
-import styles from "./Header.module.css";
+import HeaderContainer from "./HeaderContainer";
+import Logo from "./Logo";
 
-export default function Header(props) {
-  let className = `${styles.header} ${props.className}`;
-
+export default function Header() {
   return (
-    <header {...props} className={className}>
-      {props.children}
-    </header>
+    <HeaderContainer>
+      <Logo img="./assets/logo.svg" />
+    </HeaderContainer>
   );
 }
