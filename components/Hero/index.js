@@ -17,7 +17,7 @@ export default function index() {
           own terms. Whether you’re looking to escape the rat race or set up a
           side hustle, we’ve got you covered.
         </Paragraph>
-        <Icon img="./assets/icon-scroll.svg" />
+        <Icon img="./assets/icon-scroll.svg" className="mt-l mt-xxl-desktop" />
       </HeroContainer>
     </Hero>
   );

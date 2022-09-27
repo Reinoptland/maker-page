@@ -1,15 +1,6 @@
 .icon {
-  margin-top: 32px;
+  /* gewoon even een regel voor de vorm */
+  object-fit: contain;
 }
 
-@media only screen and (min-width: 768px) {
-  .icon {
-    margin-top: 32px;
-  }
-}
 
-@media only screen and (min-width: 1024px) {
-  .icon {
-    margin-top: 64px;
-  }
-}

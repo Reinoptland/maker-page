@@ -27,3 +27,21 @@ body {
   background-color: var(--clr-primary-black);
   color: var(--clr-secondary-white);
 }
+
+/* Utils */
+
+.mt-l {
+  margin-top: 32px;
+}
+
+@media only screen and (min-width: 768px) {
+  .mt-l-tablet {
+    margin-top: 32px;
+  }
+}
+
+@media only screen and (min-width: 1024px) {
+  .mt-xxl-desktop {
+    margin-top: 64px;
+  }
+}
